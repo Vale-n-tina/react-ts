@@ -35,8 +35,8 @@ const MyDetails = () => {
       <Row>
         <Col sm={8} className=" m-auto mt-5">
           <h1> {details?.title} </h1>
-          <img src={details?.image_url} alt="img" />
-          <h6>{details?.title}summary
+          <img className="img-fluid" src={details?.image_url} alt="img" />
+          <h6>{details?.summary}
           </h6>
         </Col>
       </Row>
