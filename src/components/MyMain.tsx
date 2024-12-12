@@ -44,8 +44,8 @@ const MyMain=()=>{
                 
            {articles?.results?.map((ar)=>{
                 return(
-                <Col sm={12} md={6} lg={3}>
-             <MyCard key={ar.id} array={ar}/> </Col>)
+                <Col sm={12} md={6} lg={3} key={ar.id}>
+             <MyCard  array={ar}/> </Col>)
                 })}
              
             </Row>
